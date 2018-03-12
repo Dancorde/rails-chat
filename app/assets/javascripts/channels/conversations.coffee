@@ -1,4 +1,4 @@
-jQuery(document).on 'turbolinks:load', ->
+jQuery ->
   messages_to_bottom = -> messages.scrollTop(messages.prop("scrollHeight"))
   messages = $('#conversation-body')
 
